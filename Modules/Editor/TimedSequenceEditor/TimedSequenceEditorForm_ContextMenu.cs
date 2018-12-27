@@ -204,7 +204,7 @@ namespace VixenModules.Editor.TimedSequenceEditor
 			ToolStripMenuItem contextMenuItemDistributeEqually = new ToolStripMenuItem("Distribute Equally")
 			{
 				ToolTipText =
-					@"This will stair step the selected elements, starting with the element that has the earlier start mouseLocation on the time line.",
+					@"This will stair step the selected elements, starting with the element that has the earlier start mouse location on the time line.",
 				Image = Resources.distribute
 			};
 			contextMenuItemDistributeEqually.Click += (mySender, myE) => DistributeSelectedEffectsEqually();
